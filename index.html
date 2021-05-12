@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/normalize.css">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="icon" href="favicon.ico">
+  <!-- <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/apple.png">
+  <link rel="manifest" href="manifest.webmanifest"> -->
+  <title>Магазин хищных растений</title>
+</head>
+
+<body class="page-body">
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-navigation">
+        <div class="main-navigation-wrapper">
+          <a class="main-header-logo">
+            <img src="img/logo.png" width="120" height="49" alt="логотип магазина хищных растений">
+          </a>
+          <ul class="site-navigation">
+            <li class="site-navigation-item"><a class="site-navigation-link" href="#">каталог</a></li>
+            <li class="site-navigation-item"><a class="site-navigation-link" href="#">преимущества</a></li>
+          </ul>
+          <a href="#" class="user-navigation">
+            <span class="cart">заказать</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1 class="visually-hidden">Магазин хищных растений</h1>
+    <ul>
+      <li>
+        <p>Только у нас огромный выбор хищных растений</p>
+        <figure>
+          <img src="img/slide_1.jpg" width="1440" height="682" alt="два серых горшка с винереными мухоловками">
+        </figure>
+      </li>
+      <li>
+        <p>Только у нас огромный выбор хищных растений</p>
+        <figure>
+          <img src="img/slide_2.jpg" width="1440" height="682" alt="на столе стоят горшки с суккулентами">
+        </figure>
+      </li>
+      <li>
+        <p>Только у нас огромный выбор хищных растений</p>
+        <figure>
+          <img src="img/slide_3.jpg" width="1440" height="682" alt="полка на ней два горшка с фикусами и книги">
+        </figure>
+      </li>
+    </ul>
+
+    <div class="container catalog-page">
+      <section class="filters">
+        <form method="GET" action="https://echo.htmlacademy.ru" target="blank">
+          <h2>Цена</h2>
+          <div class="min-max-price">
+            <div class="input-price">
+              <label><span class="label-text">от</span><input class="price-area" name="min-price" type="text" value="500"></label>
+              <label><span class="label-text">до</span><input class="price-area" name="max-price" type="text" value="3500"></label>
+            </div>
+          </div>
+          
+          <fieldset class="position">
+            <legend class="position-legend">Расположение</legend>
+            <ul>
+              <li>
+                <label class="label-checkbox" for="filter-table">
+                  <input class="filter-input-checkbox" type="checkbox" name="table" id="filter-table" checked>
+                  <span class="checkbox"></span>
+                  Настольное
+                </label>
+              </li>
+              <li>
+                <label class="label-checkbox" for="filter-floor">
+                  <input class="filter-input-checkbox" type="checkbox" name="floor" id="filter-floor">
+                  <span class="checkbox"></span>
+                  Напольное
+                </label>
+              </li>
+              <li>
+                <label class="label-checkbox" for="filter-wall">
+                  <input class="filter-input-checkbox" type="checkbox" name="wall" id="filter-wall">
+                  <span class="checkbox"></span>
+                  Подвесное
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          
+          <fieldset class="watering">
+            <legend class="watering-legend">Полив</legend>
+            <ul>
+              <li>
+                <label class="label-checkbox" for="filter-moisture-loving">
+                  <input class="filter-input-checkbox" type="checkbox" name="moisture-loving" id="filter-moisture-loving" checked>
+                  <span class="checkbox"></span>
+                  Влаголюбивые
+                </label>
+              </li>
+              <li>
+                <label class="label-checkbox" for="filter-moderate">
+                  <input class="filter-input-checkbox" type="checkbox" name="moderate" id="filter-moderate">
+                  <span class="checkbox"></span>
+                  Умеренный
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="lighting">
+            <legend class="lighting-legend">Освещение</legend>
+            <ul>
+              <li>
+                <label class="label-checkbox" for="filter-penumbra">
+                  <input class="filter-input-checkbox" type="checkbox" name="penumbra" id="filter-penumbra" checked>
+                  <span class="checkbox"></span>
+                  Полутень
+                </label>
+              </li>
+              <li>
+                <label class="label-checkbox" for="filter-bright">
+                  <input class="filter-input-checkbox" type="checkbox" name="bright" id="filter-bright">
+                  <span class="checkbox"></span>
+                  Яркое
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="form-button" type="submit">Показать</button>
+          <button class="form-button" type="reset">Сбросить</button>
+        </form>
+      </section>
+
+      <section class="catalog">
+        <ul>
+          <li>
+            <img src="img/gift_1.jpg" width="370" height="225" alt="росянка в прозрачном горшке видно корневую систему">
+            <h3>Росянка</h3>
+            <p>Бесстебельное насекомоядное растение. Встречается на всех континентах кроме Антарктиды.</p>
+          </li>
+          <li>
+            <img src="img/gift_2.jpg" width="370" height="225" alt="лист венереной мухоловки">
+            <h3>Венера Мухоловка</h3>
+            <p>Одним из самых популярных цветов-хищников, произрастающее в Северной Америке.</p>
+          </li>
+          <li>
+            <img src="img/gift_3.jpg" width="370" height="225" alt="растение непеитес">
+            <h3>Непеитес</h3>
+            <p>Самое экзотическое и оригинальное комнатное насекомоядное растение, которое вы найдете.</p>
+          </li>
+          <li>
+            <img src="img/gift_4.jpg" width="370" height="225" alt="растение саррацения">
+            <h3>Саррацения</h3>
+            <p>Необычное  растение произошедшие из влажных торфяных мест Северной и Южной Америке.</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    
+
+    
+
+
+
+    <footer class="main-footer">
+      
+    </footer>
+  </main>
+
+</body>
+</html>
