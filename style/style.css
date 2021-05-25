@@ -195,6 +195,7 @@ img {
   display: grid;
   grid-template-columns: 201px 1fr;
   align-content: start;
+  margin-bottom: 125px;
 }
 
 .catalog-list {
@@ -215,4 +216,91 @@ img {
 
 .catalog-list-item:nth-child(2n) {
   margin-right: 0;
+}
+
+/* About Us */
+
+.about-us {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 125px;
+}
+
+.about-us h2 {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--color-text-black);
+  margin-bottom: 100px;
+}
+
+.about-us-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 0;
+  padding: 0;
+}
+
+.about-us-item {
+  margin-right: 20px;
+  width: 353px;
+}
+
+.about-us-item:last-child {
+  margin-right: 0;
+}
+
+.about-us-icon-1 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 27px;
+  padding-left: 141px;
+}
+
+.about-us-icon-2 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 27px;
+  padding-top: 15px;
+  padding-left: 120px;
+}
+
+.about-us-icon-3 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+  padding-top: 7px;
+  padding-left: 130px;
+}
+
+.about-us-item h3 {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color-text-black-medium);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
+  padding-left: 26px;
+  padding-right: 27px;
+}
+
+.about-us-item p {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--color-text-black-medium);
+  text-align: center;
+  width: 250px;
+  margin: 0;
+  padding-left: 51px;
+  padding-right: 52px;
 }
