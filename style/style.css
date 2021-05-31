@@ -307,10 +307,65 @@ img {
 
 /* modal-section */
 
-.modal-background {
+.modal-section {
   position: relative;
+  width: 100%;
+  height: 720px;
+  background-color: var(--color-bg-gray-light);
+  margin: 0 auto;
+}
+
+.modal-background {
+  position: absolute;
   width: 100%;
   height: 720px;
   left: 0;
   top: 0;
+}
+
+.consultation {
+  position: absolute;
+  top: 48px;
+  background-color: var(--color-bg-black);
+  opacity: 0.8;
+  width: 470px;
+}
+
+.consultation h3 {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color-red-dark);
+  padding-top: 27px;
+  padding-left: 44px;
+  padding-bottom: 17px;
+  margin: 0;
+}
+
+.consultation p {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--color-text-white);
+  width: 350px;
+  padding: 0 76px 27px 44px;
+  margin: 0;
+}
+
+.modal-letter {
+  position: absolute;
+  top: 92px;
+  left: 843px;
+  background-color: var(--color-green-dark);
+  box-shadow: 0px 4px 45px rgba(1, 28, 64, 0.15);
+  width: 400px;
+}
+
+.modal-form-container {
+  margin: 0;
+  padding: 40px 50px;
 }
