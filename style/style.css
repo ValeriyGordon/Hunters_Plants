@@ -313,6 +313,7 @@ img {
   height: 720px;
   background-color: var(--color-bg-gray-light);
   margin: 0 auto;
+  margin-bottom: 45px;
 }
 
 .modal-background {
