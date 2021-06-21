@@ -26,6 +26,14 @@
     font-family: "Open Sans";
     src: url(../fonts/OpenSans-Bold.woff);
     src: url(../fonts//OpenSans-Bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/open-sans-semibold.woff);
+    src: url(../fonts/open-sans-semibold.woff2);
     font-weight: 600;
     font-style: normal;
   }
@@ -41,6 +49,7 @@
   --color-green-dark: #32521E;
 
   --color-bg-white: #FFFFFF;
+  --color-bg-grey: #e5e5e5; 
   --color-bg-black: #000000;
   --color-bg-black-medium: rgba(0, 0, 0, 0.8);
   --color-bg-red-dark: #792C1C;
@@ -179,7 +188,7 @@ img {
   height: 682px;
   background-color: var(--color-green-dark);
   margin: 0 auto;
-  margin-bottom: 140px;
+  margin-bottom: 19px;
   padding: 0;
 }
 
@@ -214,6 +223,53 @@ img {
   height: 682px;
   left: 0;
   top: 0;
+}
+
+.elements-block {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 86px;
+  margin: 0 auto;
+  margin-bottom: 105px;
+  padding: 0;
+}
+
+.elements-block::before {
+  content: url(../img/Arrow-2.png);
+  color: var(--color-bg-grey);
+  position: absolute;
+  color: var(-);
+  top: -3px;
+  left: -135px;
+}
+
+.elements-block::after {
+  content: url(../img/Arrow.png);
+  position: absolute;
+  top: 0;
+  left: 190px;
+}
+
+#element-1 {
+  width: 15px;
+	height: 15px;
+	background: var(--color-red-dark);
+  transform: rotate(45deg);
+}
+
+#element-2 {
+  width: 15px;
+	height: 15px;
+	background: var(--color-green-dark);
+  transform: rotate(45deg);
+}
+
+#element-3 {
+  width: 15px;
+	height: 15px;
+	background: var(--color-green-dark);
+  transform: rotate(45deg);
 }
 
 /* Catalog */
@@ -302,8 +358,7 @@ img {
 }
 
 .about-us-list {
-  outline: 4px solid red;        /*AУТЛАЙН*/
-  outline-offset: 4px;
+  position: relative;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -313,8 +368,6 @@ img {
 }
 
 .about-us-item {
-  outline: 4px solid green;        /*AУТЛАЙН*/
-  outline-offset: 4px;
   margin-right: 20px;
   width: 353px;
 }
@@ -375,6 +428,24 @@ img {
   padding-right: 52px;
 }
 
+.first-element {
+  content: '';
+  position: absolute;
+  border-right: 3px solid var(--color-red-dark);
+  height: 180px;
+  left: 363px;
+  top: 55px;
+}
+
+.second-element {
+  content: '';
+  position: absolute;
+  border-right: 3px solid var(--color-red-dark);
+  height: 180px;
+  left: 736px;
+  top: 55px;
+}
+
 /* modal-section */
 
 .modal-section {
@@ -406,7 +477,7 @@ img {
 .consultation h3 {
   font-family: "Open Sans", Arial, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   line-height: 33px;
   color: var(--color-red-dark);
