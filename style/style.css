@@ -52,6 +52,7 @@
   --color-bg-grey: #e5e5e5; 
   --color-bg-black: #000000;
   --color-bg-black-medium: rgba(0, 0, 0, 0.8);
+  --color-bg-grey-medium: rgba(20, 20, 20, 0.5);
   --color-bg-red-dark: #792C1C;
 }
 
@@ -270,6 +271,67 @@ img {
 	height: 15px;
 	background: var(--color-green-dark);
   transform: rotate(45deg);
+}
+
+/*Filters*/
+
+.filters {
+  width: 201px;
+  margin: 0;
+  padding: 0;
+}
+
+.filters h2 {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color-text-black-medium);
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.min-max-price {
+  width: 201px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 52px;
+}
+
+.input-price {
+  display: flex;
+  justify-content: space-between;
+  width: 201px;
+  margin: 0;
+  padding: 0;
+}
+
+.label-text {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--color-text-black-medium);
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.price-area {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--color-bg-grey-medium);
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  border: 1px solid var(--color-red-dark);
+  margin: 0;
+  padding: 0;
 }
 
 /* Catalog */
