@@ -334,6 +334,73 @@ img {
   padding: 0;
 }
 
+.position {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.position-legend {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color-text-black-medium);
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+}
+
+.filters ul {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--color-text-black-medium);
+  margin: 0;
+  margin-bottom: 54px;
+  padding: 0;
+}
+
+.position li {
+  margin-bottom: 6px;
+}
+
+.position li:last-child {
+  margin-bottom: 0;
+}
+
+.label-checkbox {
+  padding-left: 33px;
+}
+
+.filter-input-checkbox {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.checkbox {
+  position: absolute;
+  display: inline-block;
+  vertical-align: auto;
+  box-sizing: border-box;
+  border: 1px solid var(--color-red-dark);
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+  margin-left: -32px;
+}
+
+.filter-input-checkbox:checked + .checkbox {
+  background-image: url(../img/Vector-24.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+}
+
 /* Catalog */
 
 .catalog-page {
